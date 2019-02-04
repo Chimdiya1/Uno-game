@@ -1,6 +1,7 @@
 body *{
     margin: 0px;
     padding: 0px;
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
 }
 #game{
     background-color: rgb(196, 234, 252);
@@ -9,23 +10,23 @@ body *{
     padding-top: 1%;
 }
 #computer-area{
-    background-color: rgb(128, 252, 173);
+    background-color: rgb(228, 141, 141);
     border-radius: 5px;
     height: 26%;
     margin: 2%;
     display:flex;
     align-items:center;
-    margin-top: 1%;
+    margin-top: 1%; 
     
 }#game-area{
-    background-color: rgb(255, 199, 147);
+    
     border-radius: 5px;
     height: 36%;
     margin: 2%;
     display:flex;
     align-items:center;
 }#player-area{
-    background-color: rgb(247, 168, 137);
+    background-color: rgb(228, 141, 141);
     border-radius: 5px;
     height: 26%;
     margin: 2%;
@@ -33,11 +34,14 @@ body *{
     align-items:center;
 }
 .all-cards{
-    background-color: #fff;
     height: 96%;
     width: 70%;
     margin: 2%;
-    margin-left: 10%;
+    margin-left: 7%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    
+    grid-gap: 15px;
 }
 .names{
     margin-left: 2%;
@@ -45,15 +49,53 @@ body *{
 #deck {
     background-color: rgba(231, 16, 16, 0.966);
     height: 50%;
-    width: 25%;
     margin: 2%;
     margin-left: 4%;
-    
+    border-radius: 5px;
+    text-align: center;
+
 }
 #stack{
     background-color: rgb(25, 10, 228);
     height: 50%;
-    width: 25%;
     margin: 2%;
     margin-left: 20%;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.ddeck{
+    
+    border-radius: 5px;
+    height: 100%; 
+    border: 2px solid rgb(235, 201, 201);
+}
+.card{
+    background-color: red;
+    height: 70px;
+    width: 15px;
+    border-radius: 5px;
+
+}
+.ddeck:hover{
+    border: 2px solid red;
+}
+
+@media(min-width:600px){
+    #game{
+        background-color: rgb(196, 234, 252);
+        border-radius: 5px;
+        height: 100vh;
+        padding-top: 1%;
+        width: 70vw;
+        margin-left: 15vw;
+    }
+    #stack{
+        background-color: rgb(25, 10, 228);
+        height: 50%;
+        margin: 2%;
+        margin-left: 30%;
+        border-radius: 5px;
+    
+    }
 }
