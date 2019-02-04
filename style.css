@@ -1,0 +1,59 @@
+body *{
+    margin: 0px;
+    padding: 0px;
+}
+#game{
+    background-color: rgb(196, 234, 252);
+    border-radius: 5px;
+    height: 100vh;
+    padding-top: 1%;
+}
+#computer-area{
+    background-color: rgb(128, 252, 173);
+    border-radius: 5px;
+    height: 26%;
+    margin: 2%;
+    display:flex;
+    align-items:center;
+    margin-top: 1%;
+    
+}#game-area{
+    background-color: rgb(255, 199, 147);
+    border-radius: 5px;
+    height: 36%;
+    margin: 2%;
+    display:flex;
+    align-items:center;
+}#player-area{
+    background-color: rgb(247, 168, 137);
+    border-radius: 5px;
+    height: 26%;
+    margin: 2%;
+    display:flex;
+    align-items:center;
+}
+.all-cards{
+    background-color: #fff;
+    height: 96%;
+    width: 70%;
+    margin: 2%;
+    margin-left: 10%;
+}
+.names{
+    margin-left: 2%;
+}
+#deck {
+    background-color: rgba(231, 16, 16, 0.966);
+    height: 50%;
+    width: 25%;
+    margin: 2%;
+    margin-left: 4%;
+    
+}
+#stack{
+    background-color: rgb(25, 10, 228);
+    height: 50%;
+    width: 25%;
+    margin: 2%;
+    margin-left: 20%;
+}
